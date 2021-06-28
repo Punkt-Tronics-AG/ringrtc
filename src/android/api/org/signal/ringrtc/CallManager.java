@@ -1,5 +1,6 @@
 /*
  * Copyright 2019-2021 Signal Messenger, LLC
+ * Copyright 2021 Punkt Tronics AG
  * SPDX-License-Identifier: AGPL-3.0-only
  */
 
