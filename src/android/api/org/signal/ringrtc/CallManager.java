@@ -1266,7 +1266,7 @@ public class CallManager {
 
       // Create a video track that will be shared across all
       // connection objects.  It must be disposed manually.
-      if (cameraControl.hasCapturer()) {
+      //if (cameraControl.hasCapturer()) {
         this.videoSource = factory.createVideoSource(false);
         // Note: This must stay "video1" to stay in sync with V4 signaling.
         this.videoTrack  = factory.createVideoTrack("video1", videoSource);
@@ -1275,10 +1275,10 @@ public class CallManager {
         // Connect camera as the local video source.
         cameraControl.initCapturer(videoSource.getCapturerObserver());
         videoTrack.addSink(localSink);
-      } else {
-        this.videoSource = null;
-        this.videoTrack  = null;
-      }
+      //} else {
+      //  this.videoSource = null;
+      //  this.videoTrack  = null;
+      //}
 
     }
 

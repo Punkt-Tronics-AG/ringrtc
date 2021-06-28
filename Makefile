@@ -13,7 +13,7 @@ JOBS ?= 8
 
 BUILD_TYPES := release debug
 
-GN_ARCHS     := arm arm64 x86 x64
+GN_ARCHS     := arm
 
 ANDROID_TARGETS := $(foreach t, $(BUILD_TYPES),     \
 			$(foreach a, $(GN_ARCHS),   \
