@@ -2,6 +2,11 @@
 
 RingRTC is a middleware library providing [Signal Messenger](https://www.signal.org/) applications with video and voice calling services built on top of [WebRTC](https://webrtc.org/).
 
+# This repository
+
+This repository is to implement a workaround against the original ringrtc library problem observed on Signal-Android.
+Issue registered in Signal-Android is [here](https://github.com/signalapp/Signal-Android/issues/11058).
+
 ## Building
 
 For building RingRTC see [BUILDING.md](BUILDING.md).
